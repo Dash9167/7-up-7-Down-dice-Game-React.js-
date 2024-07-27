@@ -1,0 +1,170 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.home{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.img img{
+  height:500px;
+  width: 500px;
+  animation: ghumo ;
+  animation-duration: 2s;
+  position: relative;
+}
+@keyframes ghumo {
+  0% {left:0px;top: -500px;}
+  25% {left:0px;top: 100px;}
+  50% {left:0px;top: -40px;}
+
+  75% {left:0px;top: 40px;}
+  100% {left:0px;top: 0px;}
+
+  
+}
+.play{
+  font-size: 35px;
+}
+.play button{
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: 1.2s;
+  border: 2px solid black;
+
+}
+.play button:hover{
+  background-color: black;
+  color: aliceblue;
+}
+h1{
+  position: relative;
+  animation: aja;
+  animation-duration: 1.5s;
+  overflow: hidden;
+  font-weight: 700;
+}
+@keyframes aja {
+  0%{right: -500px;}
+  50%{right: 50px;}
+  100%{right: 0px;}
+
+
+}
+@media screen and (max-width:750px){
+  .img img{
+    height:250px;
+    width: 250px;
+   padding: 0px 5rem;
+    
+  }
+  .home{
+    flex-direction: column;
+    align-items: start;
+    
+  }
+}
+/*game**/
+.head{
+ 
+  height: 5rem;
+ 
+}
+@media  (max-width:650px) {
+  .game{
+    flex-direction: column;
+    align-items: start;
+  }
+  .img2 img{
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+
+
+}
+.img2 {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+ 
+  
+}
+.img2 img{
+  height: 250px;
+  width: 250px;
+  transition: transform 2s ease;
+  border-radius: 5px;
+cursor: pointer;
+
+
+ 
+}
+.animate {
+  position: relative;
+  animation: rotation 2s ease forwards;
+  
+}
+/*rotation***/
+@keyframes rotation {
+  0% {top: -250px;}
+  25% {top: 20px;}
+  50% {top: 0px;}
+
+  75% {top: -150px;}
+  100% {top: 0px;}
+
+}
+.img2 button{
+  width: 30%;
+  padding: 13px 18px;
+  border-radius: 5px;
+  margin:2rem 4rem ;
+  transition: 1.2s;
+cursor: pointer;
+
+font-weight: 400;
+ 
+}
+.img2 button:hover{
+  background-color: rgb(42, 42, 232);
+  border: rgb(42, 42, 232);
+  color: aliceblue;
+
+}
+.game h2{
+font-size: 35px;
+font-weight: 600;
+}
+.heading{
+  flex-basis: 30%;
+
+}
+.heading button{
+  margin: 10px 0px;
+  padding: 10px 15px;
+  background-color: rgb(42, 42, 232);
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  
+}
+ul{
+
+  margin: 10px 15px;
+  list-style:decimal;
+  transition: 1.3s;
+}
+.gayab{
+  display: none;
+}
