@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/7-up-7-Down-dice-Game-React.js-/static/css/main.ec02fa80.css",
+    "main.js": "/7-up-7-Down-dice-Game-React.js-/static/js/main.388e235c.js",
+    "static/js/453.a5a72b74.chunk.js": "/7-up-7-Down-dice-Game-React.js-/static/js/453.a5a72b74.chunk.js",
+    "index.html": "/7-up-7-Down-dice-Game-React.js-/index.html",
+    "main.ec02fa80.css.map": "/7-up-7-Down-dice-Game-React.js-/static/css/main.ec02fa80.css.map",
+    "main.388e235c.js.map": "/7-up-7-Down-dice-Game-React.js-/static/js/main.388e235c.js.map",
+    "453.a5a72b74.chunk.js.map": "/7-up-7-Down-dice-Game-React.js-/static/js/453.a5a72b74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec02fa80.css",
+    "static/js/main.388e235c.js"
+  ]
+}
