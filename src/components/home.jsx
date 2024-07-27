@@ -3,7 +3,7 @@ const Home =({toggle})=>{
     return(
 <div className="home">
     <div className="img">
-        <img src="../images/dice.png" alt="" />
+        <img src="./public/images/dice.png" alt="" />
     </div>
     <div className="play">
         <h1>Dice Game</h1>
