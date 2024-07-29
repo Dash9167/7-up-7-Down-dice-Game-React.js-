@@ -5,7 +5,7 @@ export default function Roll() {
         const [startDice1,setsartDice1]=useState(0);
         const [startDice2,setsartDice2]=useState(0);
         const [startRotation,setsatrtRotation]=useState(0);
-        const [startbutton,setstartbutton]=useState("none");
+     
         const [startGayab,setstartGayab]=useState(false);
   
 
@@ -92,9 +92,7 @@ export default function Roll() {
     <button onClick={playgame2}  className={`${startGayab?'gayab':''}`}>Seven Down</button>        
 
     </div>  
-    <div className="point  " style={{display:startbutton}}> 
-      
-    </div>
+  
     </>
   );
 }
