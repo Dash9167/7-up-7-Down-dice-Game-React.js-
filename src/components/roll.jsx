@@ -7,7 +7,7 @@ export default function Roll() {
         const [startRotation,setsatrtRotation]=useState(0);
         const [startbutton,setstartbutton]=useState("none");
         const [startGayab,setstartGayab]=useState(false);
-        const [iswin,setiswin]=useState("");
+  
 
 
      
@@ -45,10 +45,10 @@ export default function Roll() {
           
           setTimeout(() => {
             if (sum >= 7) {
-              setiswin("Congratulations, you won!!")
+              alert("Congratulations, you won!!")
               
             } else {
-              setiswin("You lost the game!! ")
+              alert("You lost the game!! ")
              
             }
           }, 3100);
@@ -71,10 +71,10 @@ export default function Roll() {
          setTimeout(() => {
           if(sum < 7)
           {
-            setiswin("Congratulations, you won!!")
+            alert("Congratulations, you won!!")
               
           } else {
-            setiswin("You lost the game!! ")
+            alert("You lost the game!! ")
            
           } 
          }, 3100); 
@@ -93,7 +93,7 @@ export default function Roll() {
 
     </div>  
     <div className="point  " style={{display:startbutton}}> 
-      <h1>{iswin}</h1>
+      
     </div>
     </>
   );
