@@ -23,7 +23,7 @@ export default function Roll() {
         return Math.floor(Math.random() * (min * max) +min);     
         }
         const playgame1 = () => {
-          setstartbutton("none");
+         
           const randomNumber1 = generateRandomNumber1(1, 6);
           const randomNumber2 = generateRandomNumber2(1, 6);
           
@@ -35,8 +35,7 @@ export default function Roll() {
           setsatrtRotation(prev => prev + 360 * 5);
           setAnimate(true);
           setTimeout(() => setAnimate(false), 2000);
-          setstartbutton("block");
-          setTimeout(() => setstartbutton("none"), 2500);
+         
           setstartGayab(true);
           setTimeout(() => setstartGayab(false), 3000);
           
@@ -63,8 +62,7 @@ export default function Roll() {
          setsatrtRotation(prev=>prev+ 360*5);
          setAnimate(true);
          setTimeout(() => setAnimate(false), 2000);
-         setstartbutton("block");
-         setTimeout(() => setstartbutton("none"), 2000);
+      
          setstartGayab(true);
          setTimeout(() => setstartGayab(false),3000);  
          const sum=randomNumber1+randomNumber2 ;
